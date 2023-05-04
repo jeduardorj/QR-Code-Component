@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Estou começando pelo body porque o css usa o efeito cascata estou seguindo a ordem do html 1°Body, Conteiner, card, Img e por ultimo o text */
+
+ body{
+    font-family: 'Outfit', sans-serif;
+    background-color:hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+   
+ }
+
+
+
+ .container{
+    max-width: 350px;
+    margin: 0 auto;
+
+    
+ }
+
+ .card{
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px;
+    border-radius: 17px;
+    text-align: center;
+    margin: 0 1rem;
+    
+ }
+
+ /* Isso não é o mais indicado porque dessa forma ele não alteraria só um elemento img */
+ /* .card img{
+    width: 100%;
+ } */
+
+ /*Criei o Id cardQr para colocar o estilo desejado mas tambem poderia usar uma class caso hovesse mais elementos com o mesmo estulo*/
+ #cardQr{
+    width: 100%;
+    border-radius: 12px;
+ }
+
+ .text{
+    padding: 20px 10px;
+ }
+
+ h2{
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 15px;
+}
+
+ p{
+    color: hsl(220, 15%, 55%);
+}
